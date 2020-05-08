@@ -82,3 +82,39 @@ class Ultrasonido{
 
 *******************************************************************************/
 
+class Carro{
+	public:
+	byte encoderI=2;
+ 	byte encoderD=3;
+ 	byte adelanteI=4; 
+	byte atrasI=5;    
+ 	byte potenciaI=6;
+ 	byte adelanteD=7;
+ 	byte atrasD=8;  
+ 	byte potenciaD=9;
+ 	byte sensortrigerC=10;
+ 	byte sensorechoC=11;
+ 	byte sensortrigerI=12;
+ 	byte sensorechoI=13;
+ 	byte sensortrigerD=14;
+ 	byte sensorechoD=15; 
+ 	byte potenciaMAX =200;
+
+ 	Ultrasonido *UltraC; 
+ 	Ultrasonido *UltraI;
+ 	Ultrasonido *UltraD; 
+
+	//static volatile unsigned int contaI;
+	//static volatile unsigned int contaD;
+
+	static void contadorRuedaI();
+	static void contadorRuedaD();
+
+	Carro();
+	//mover el carro, valores positivos hacen girar las llantas para delante
+	//valores negativos, giran las llantas hacia atras
+	//los valores pueden ir de -10 a 10
+	void mover(int Izquierda, int Derecha);
+
+	void girar(int grados);
+}
