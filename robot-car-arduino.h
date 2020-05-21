@@ -7,8 +7,8 @@ ciclo I-2019   DEFINA LAS SIGUIENTES CLASES
 + miembro : tipodedatos
 */
 
-#ifndef robot - car - arduino_h
-#define robot -car - arduino_h
+#ifndef robot-car-arduino_h
+#define robot-car-arduino_h
 #include <Arduino.h>
 
 class Ultrasonido
