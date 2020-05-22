@@ -120,9 +120,12 @@ void Carro::contarRuedaD(){
            digitalWrite(adelanteD,LOW);
            digitalWrite(atrasD,LOW);  
         }
+
+        
         //Potencia indicada en pines PWM
         // AJUSTANDO LA Potencia
         // si tienes contadores de vuelta aqui agregaras el ajuste para que avance recto
+
         derecha=abs(derecha);
         izquierda=abs(izquierda);
 
