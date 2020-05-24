@@ -98,6 +98,9 @@ void Carro::mover(int izquierda, int derecha){
         digitalWrite(adelanteD,LOW);
         digitalWrite(atrasD,LOW);
     }
+
+
+    
     //Potencia indicada en pines PWN
     //AJUSTANDO LA POTENCIA
     //ajuste en contadores de vuelta para que avance recto
