@@ -107,7 +107,7 @@ class Carro{
 		byte sensortrigerD =14; //Sensor Ultrasonido Derecha Trigger
 		byte sensorechoD =15; //Sensor Ultrasonido Derecha Echo
 		byte potenciaMAX =200;  //limite regulador de la potencia maxima SE PUEDE REGULAR PONTENCIA MAXIMA
-
+ 
 		Ultrasonido UltraC; // SE DECLARA COMO PUNTERO
 		Ultrasonido UltraI; // CPP SE VA INSTANCIAR Y REFERIR
 		Ultrasonido UltraD; // 
