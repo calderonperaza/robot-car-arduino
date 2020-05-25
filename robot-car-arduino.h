@@ -122,7 +122,7 @@ class Carro{
 	//el valor de cada llanta si es positivo movera la llanta hacia adelante
 	//si es negativo movera la llanta hacia atras
 	//el numero representara la potencia aplicada a cada llanta
-	//los valores pueden ir de -255 hasta 255
+	//los valores pueden ir de -10 hasta 10
 	void mover (int Izquierda, int Derecha);
 
 	//Gira la cantidad de grados especifica: - a la izquierda, + derecha
