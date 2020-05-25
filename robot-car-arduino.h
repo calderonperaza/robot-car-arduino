@@ -27,7 +27,6 @@ class Ultrasonido{
 	public:
 		byte *pinEcho;
 		byte *pinTrigger;
-
 //constructor parametrizado, recibe como parametros Trigger y Echo como byte
 Ultrasonido (byte *_pinTrigger, byte *_pinEcho);
 Ultrasonido();
